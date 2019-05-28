@@ -1,0 +1,35 @@
+{
+  "exercises": [
+    {
+      "id": "1",
+      "name": "Seated Shoulder Press"
+    },
+    {
+      "id": "2",
+      "name": "Bicep Curl"
+    },
+    {
+      "id": "3",
+      "name": "Bench Press"
+    }
+  ],
+  "routines": [
+    {
+      "id": "a",
+      "name": "Arms and chest",
+      "exercises": ["1, 2"]
+    }
+  ],
+  "history": [
+    {
+      "date": "2019-06-01",
+      "routine": "a",
+      "details": [
+        {
+          "exerciseId": "1",
+          "weight": 25
+        }
+      ]
+    }
+  ]
+}
