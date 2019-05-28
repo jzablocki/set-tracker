@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from './Navigation';
-import { Segment, Container } from 'semantic-ui-react';
 import PageHeader from './PageHeader';
 import Head from './Head';
 
@@ -10,11 +9,10 @@ const Layout = ({ children, title }: { children?: any; title: string }) => {
   return (
     <div>
       <Head title={pageTitle} />
-      <Navigation />
-      <Container textAlign="center" style={{ marginTop: '2em' }}>
+      <Navigation>
         <PageHeader title={title} />
         {children}
-      </Container>
+      </Navigation>
     </div>
   );
 };

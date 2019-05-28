@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const History = () => {
+const Exercises = () => {
   return (
-    <Layout title="History">
+    <Layout title="Exercises">
       <div />
     </Layout>
   );
 };
 
-export default History;
+export default Exercises;
